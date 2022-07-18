@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Justice;
+    src: url(fonts/justice3d.ttf);
+}
+
+@font-face {
+    font-family: JusticeT;
+    src: url(fonts/justice.ttf);
+}
+
+body {
+background: black;
+}
+
+.titles {
+  text-align: center;
+  margin-top: 200px;
+  animation: wave 6s infinite;
+}
+
+h1 {
+  color: #68f6fd;
+  font-family: JusticeT;
+  font-size: 10vw;
+  text-shadow: 6px 6px #FF1493;
+}
+
+h2 {
+  font-family: Justice;
+  font-size: 5vw;
+  -webkit-text-stroke: 6px #FF1493;
+  -webkit-animation: hotline-miami 3s ease-out infinite;
+  margin: 0;
+}
+
+h3 {
+  font-family: Justice;
+  font-size: 5vw;
+  color: #0FF0FC;
+  margin: 0;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(-2deg) translate(0px);
+  }
+  25% {
+    transform: rotate(2deg) translate(0px);
+  }
+
+  50% {
+    transform: rotate(2deg) translate(0px);
+  }
+  100% {
+    transform: rotate(-2deg) translate(0px);
+  }
+}
+
+@-webkit-keyframes hotline-miami {
+  
+  15% {
+    margin-left: 0;
+    text-shadow: none;
+  }
+  
+  45%, 55% {
+    margin-left: 1.25em;
+    -webkit-text-stroke: 6px #FFF;
+    text-shadow:
+    -4px 0 #ffffff,
+    -8px 0 #ffe6f3,
+    -12px 0 #ffcce7,
+    -16px 0 #ffb3db,
+    -20px 0 #ff99cf,
+    -24px 0 #ff80c3,
+    -28px 0 #ff66b8,
+    -32px 0 #ff4dac,
+    -36px 0 #ff33a0,
+    -40px 0 #ff1a94,
+    -44px 0 #ff1493,
+    -48px 0 #ff0088,
+    -52px 0 #e6007a,
+    -56px 0 #cc006d,
+    -60px 0 #b3005f,
+    -64px 0 #990052;
+  }
+}
