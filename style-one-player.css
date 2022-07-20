@@ -77,10 +77,6 @@ h1 {
   cursor: pointer;
 }
 
-.grid-item:hover {
-  background: #F2F3F4;
-}
-
 img {
   text-align: center;
 }
