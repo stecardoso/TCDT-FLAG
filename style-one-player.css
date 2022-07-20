@@ -21,7 +21,7 @@ h1 {
   font-size: 12vw;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 #hearts {
@@ -56,13 +56,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  margin-top: 43px;
+  margin-top: 94px;
 }
 
 .grid-item {
