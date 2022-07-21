@@ -18,7 +18,7 @@ body {
 h1 {
   color: #ff001f;
   font-family: Justice;
-  font-size: 8vw;
+  font-size: 12vw;
   margin: 0;
   text-align: center;
 }
@@ -38,7 +38,7 @@ pre {
 h2 {
   color: white;
   font-family: Justice3D;
-  font-size: 4vw;
+  font-size: 8vw;
   margin: 0;
   text-align: center;
   cursor: pointer;
