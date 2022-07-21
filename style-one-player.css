@@ -28,17 +28,15 @@ h1 {
   color: #FF001F;
   font-family: Roboto;
   font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 40%;
+  margin: 0;
+  text-align: center;
 }
 
 #score {
   font-family: Roboto;
   font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 40%;
+  margin: 0;
+  text-align: center;
 }
 
 .wrapper {
@@ -48,36 +46,30 @@ h1 {
 }
 
 .square {
-  position: relative;
-  width: 320px;
-  background: #F2F3F4;
-  border: 2px solid black;
-  padding: 20px;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
 }
 
 .grid-item {
   background-color: #FFFFFF;
   border: 1px solid #555F61;
   color: #555F61;
-  padding: 30px;
   font-family: RobOto;
   font-size: 30px;
+  height: auto;
+  margin: 6px;
+  padding: 30px;
   text-align: center;
-  margin: 4px;
   cursor: pointer;
-}
-
-img {
-  text-align: center;
 }
 
 @keyframes green {
