@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Justice;
-    src: url(fonts/justicelaser.ttf);
+  font-family: Justice;
+  src: url(fonts/justice.ttf);
 }
 
 @font-face {
-    font-family: Justice3D;
-    src: url(fonts/justice3d.ttf);
+  font-family: Justice3D;
+  src: url(fonts/justice3d.ttf);
 }
 
 body {
@@ -16,12 +16,11 @@ body {
 }
 
 h1 {
-  color: #FF001F;
+  color: #ff001f;
   font-family: Justice;
   font-size: 8vw;
   margin: 0;
   text-align: center;
-  text-shadow: 2px 2px black;
 }
 
 img {
@@ -32,20 +31,24 @@ img {
 pre {
   color: white;
   font-size: 50px;
-  text-align: center;
   margin-bottom: 8%;
+  text-align: center;
 }
 
 h2 {
-    color: white;
-    font-family: Justice3D;
-    font-size: 4vw;
-    margin: 0;
-    text-align: center;
-    cursor: pointer;
+  color: white;
+  font-family: Justice3D;
+  font-size: 4vw;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
 }
 
 h2:hover {
-    -webkit-text-stroke: 6px #FF001F;
-    -webkit-animation: hotline-miami 3s ease-out infinite;
+  -webkit-text-stroke: 6px #ff001f;
+  -webkit-animation: hotline-miami 3s ease-out infinite;
+}
+
+a {
+  text-decoration: none;
 }
