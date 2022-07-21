@@ -49,31 +49,31 @@ a {
 
 @keyframes wave1 {
     0% {
-        transform: rotate(1deg) translate(0px);
+        transform: rotate(2deg) translate(0px);
     }
     25% {
-        transform: rotate(-1deg) translate(0px);
+        transform: rotate(-2deg) translate(0px);
     }
     50% {
-        transform: rotate(-1deg) translate(0px);
+        transform: rotate(-2deg) translate(0px);
     }
     100% {
-        transform: rotate(1deg) translate(0px);
+        transform: rotate(2deg) translate(0px);
     }
 }
 
 @keyframes wave2 {
     0% {
-        transform: rotate(-1deg) translate(0px);
+        transform: rotate(-2deg) translate(0px);
     }
     25% {
-        transform: rotate(1deg) translate(0px);
+        transform: rotate(2deg) translate(0px);
     }
     50% {
-        transform: rotate(1deg) translate(0px);
+        transform: rotate(2deg) translate(0px);
     }
     100% {
-        transform: rotate(-1deg) translate(0px);
+        transform: rotate(-2deg) translate(0px);
     }
 }
 
