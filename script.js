@@ -532,7 +532,7 @@ function game() {
   points();
 
   if (lifes == 0) {
-    alert("PERDEU!!");
+    window.location.href = "perdeu.html";
   } else if (score == 15) {
     alert("GANHOU!!");
   } else {
