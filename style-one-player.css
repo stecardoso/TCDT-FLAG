@@ -1,45 +1,49 @@
 @font-face {
-    font-family: Justice;
-    src: url(fonts/justice3d.ttf);
+  font-family: Justice;
+  src: url(fonts/justice3d.ttf);
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url(fonts/Roboto-Regular.ttf);
+  font-family: JusticeCond;
+  src: url(fonts/justicecond.ttf);
+}
+
+@font-face {
+  font-family: JusticeGrad;
+  src: url(fonts/justicegrad.ttf);
 }
 
 body {
-  background: #FCFBF4;
+  background: #fcfbf4;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
-  color: #FF001F;
+  color: #ff001f;
   font-family: Justice;
   font-size: 12vw;
+  margin: 0;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 3%;
 }
 
 #hearts {
-  color: #FF001F;
-  font-family: Roboto;
-  font-size: 20px;
+  color: #ff001f;
+  font-size: 72px;
   margin: 0;
   text-align: center;
 }
 
 #score {
-  font-family: Roboto;
-  font-size: 20px;
+  font-family: JusticeGrad;
+  font-size: 60px;
   margin: 0;
   text-align: center;
 }
 
-.wrapper {
+.wrapper,
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,23 +51,19 @@ h1 {
 
 .square {
   border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+  grid-template-columns: minmax(100px, 400px) minmax(100px, 400px);
 }
 
 .grid-item {
-  background-color: #FFFFFF;
-  border: 1px solid #555F61;
-  color: #555F61;
-  font-family: RobOto;
+  background-color: white;
+  border: 1px solid black;
+  font-family: JusticeCond;
   font-size: 30px;
   height: auto;
   margin: 6px;
@@ -74,18 +74,18 @@ h1 {
 
 @keyframes green {
   0% {
-    background: #C0EDA6;
+    background: #c0eda6;
   }
   100% {
-    background: #ffffff;
+    background: white;
   }
 }
 
 @keyframes red {
   0% {
-    background: #FD5D5D;
+    background: #fd5d5d;
   }
   100% {
-    background: #ffffff;
+    background: white;
   }
 }
