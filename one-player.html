@@ -1,8 +1,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style-one-player.css" media="screen" />
-
 <body onload="game()">
-  <div class="content">
+  <div>
     <h1>TCDT FLAG</h1>
     <pre id="hearts">❤ ❤ ❤</pre>
     <pre id="score">score: </pre>
@@ -11,11 +10,15 @@
         <img id="flag" />
       </div>
     </div>
-    <div class="grid-container">
-        <div class="grid-item" id="option1" onclick="btn1()"></div>
-        <div class="grid-item" id="option2" onclick="btn2()"></div>
-        <div class="grid-item" id="option3" onclick="btn3()"></div>
-        <div class="grid-item" id="option4" onclick="btn4()"></div>
+    <div class="container">
+      <div>
+        <div class="grid-container">
+          <div class="grid-item" id="option1" onclick="btn1()"></div>
+          <div class="grid-item" id="option2" onclick="btn2()"></div>
+          <div class="grid-item" id="option3" onclick="btn3()"></div>
+          <div class="grid-item" id="option4" onclick="btn4()"></div>
+        </div>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>
