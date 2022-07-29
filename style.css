@@ -18,6 +18,7 @@ body {
 
 .content {
     text-align: center;
+    animation: wave 4s infinite;
 }
 
 h1 {
@@ -26,7 +27,6 @@ h1 {
     font-size: 14vw;
     text-shadow: 6px 6px #FF001F;
     margin-top: 0;
-    animation: wave1 4s infinite;
 }
 
 h2 {
@@ -35,7 +35,6 @@ h2 {
     font-size: 7vw;
     margin: 0;
     cursor: pointer;
-    animation: wave2 4s infinite;
 }
 
 h2:hover {
@@ -47,7 +46,7 @@ a {
     text-decoration: none;
 }
 
-@keyframes wave1 {
+@keyframes wave {
     0% {
         transform: rotate(2deg) translate(0px);
     }
@@ -59,21 +58,6 @@ a {
     }
     100% {
         transform: rotate(2deg) translate(0px);
-    }
-}
-
-@keyframes wave2 {
-    0% {
-        transform: rotate(-2deg) translate(0px);
-    }
-    25% {
-        transform: rotate(2deg) translate(0px);
-    }
-    50% {
-        transform: rotate(2deg) translate(0px);
-    }
-    100% {
-        transform: rotate(-2deg) translate(0px);
     }
 }
 
