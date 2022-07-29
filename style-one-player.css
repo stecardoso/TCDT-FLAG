@@ -8,11 +8,6 @@
   src: url(fonts/justicecond.ttf);
 }
 
-@font-face {
-  font-family: JusticeGrad;
-  src: url(fonts/justicegrad.ttf);
-}
-
 body {
   background: #fcfbf4;
   display: flex;
@@ -36,7 +31,7 @@ h1 {
 }
 
 #score {
-  font-family: JusticeGrad;
+  font-family: JusticeCond;
   font-size: 60px;
   margin: 0;
   text-align: center;
