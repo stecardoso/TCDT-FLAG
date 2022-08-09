@@ -545,11 +545,11 @@ function btn1() {
   var option1 = document.getElementById("option1");
 
   if (option1.innerText == countryList[index]) {
-    option1.style.animation = "green 0.5s";
+    /*option1.style.animation = "green 0.5s";*/
     score++;
     game();
   } else {
-    option1.style.animation = "red 0.5s";
+    /*option1.style.animation = "red 0.5s";*/
     lifes--;
     game();
   }
@@ -559,11 +559,11 @@ function btn2() {
   var option2 = document.getElementById("option2");
 
   if (option2.innerText == countryList[index]) {
-    option2.style.animation = "green 0.5s";
+    /*option2.style.animation = "green 0.5s";*/
     score++;
     game();
   } else {
-    option2.style.animation = "red 0.5s";
+    /*option2.style.animation = "red 0.5s";*/
     lifes--;
     game();
   }
@@ -573,11 +573,11 @@ function btn3() {
   var option3 = document.getElementById("option3");
 
   if (option3.innerText == countryList[index]) {
-    option3.style.animation = "green 0.5s";
+    /*option3.style.animation = "green 0.5s";*/
     score++;
     game();
   } else {
-    option3.style.animation = "red 0.5s";
+    /*option3.style.animation = "red 0.5s";*/
     lifes--;
     game();
   }
@@ -587,11 +587,11 @@ function btn4() {
   var option4 = document.getElementById("option4");
 
   if (option4.innerText == countryList[index]) {
-    option4.style.animation = "green 0.5s";
+    /*option4.style.animation = "green 0.5s";*/
     score++;
     game();
   } else {
-    option4.style.animation = "red 0.5s";
+    /*option4.style.animation = "red 0.5s";*/
     lifes--;
     game();
   }
