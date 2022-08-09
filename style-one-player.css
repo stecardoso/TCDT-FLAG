@@ -67,7 +67,7 @@ h1 {
   cursor: pointer;
 }
 
-@keyframes green {
+/*@keyframes green {
   0% {
     background: #c0eda6;
   }
@@ -83,4 +83,4 @@ h1 {
   100% {
     background: white;
   }
-}
+}*/
