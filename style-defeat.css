@@ -23,12 +23,6 @@ h1 {
   text-align: center;
 }
 
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 img {
   margin-top: 8%;
   margin-bottom: 8%;
