@@ -523,7 +523,7 @@ function answer() {
   var num = Math.floor(Math.random() * 4) + 1;
   document.getElementById("option" + num).innerText = countryList[index];
 
-  var flagAPI = "https://countryflagsapi.com/png/" + codeList[index];
+  var flagAPI = "https://countryflagsapi.netlify.app/flag/" + codeList[index] + ".svg";
   document.getElementById("flag").src = flagAPI;
 }
 
